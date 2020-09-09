@@ -4,7 +4,7 @@ var op3 = "Piedra";
 
 function play (player, ai){ 
 
-    switch (true) {
+    switch (player != ai) {
     case (player === op1 && ai === op2): console.log ("Gana player")
         break;
     case (player === op2 && ai === op1): console.log ("Gana ai")
